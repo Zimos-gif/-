@@ -1,0 +1,19 @@
+/*  Зовнішній файл стилів (external CSS)  */
+
+body {
+    background-color: #f9f9f9;
+    font-family: "Segoe UI", sans-serif;
+    margin: 30px;
+}
+
+p.external {
+    color: darkorange;
+    font-style: italic;
+}
+
+#unique {
+    color: purple;
+    background-color: #f0e6ff;
+    padding: 10px;
+    border-left: 5px solid purple;
+}

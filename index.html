@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Приклади стилізації HTML</title>
+
+    <!-- 1️⃣ Підключення зовнішнього CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- 2️⃣ Внутрішні стилі -->
+    <style>
+        p.internal {
+            color: blue;
+            font-size: 18px;
+            font-family: Arial, sans-serif;
+        }
+        a {
+            text-decoration: none;
+            margin-right: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 style="color: crimson; text-align: center;">Демонстрація різних способів стилізації</h1>
+
+    <!-- 3️⃣ Вбудовані стилі (inline styles) -->
+    <p style="color: green; font-weight: bold;">
+        Це приклад параграфа з <b>вбудованими стилями (inline styles)</b>.
+    </p>
+
+    <!-- 4️⃣ Внутрішні стилі (internal styles) -->
+    <p class="internal">
+        Цей текст оформлено за допомогою <b>внутрішніх стилів</b>, оголошених у тезі &lt;style&gt;.
+    </p>
+
+    <!-- 5️⃣ Зовнішні стилі (external CSS) через клас -->
+    <p class="external">
+        Цей абзац стилізовано через <b>зовнішній CSS-файл</b> і <b>клас</b>.
+    </p>
+
+    <!-- 6️⃣ Стилізація через ідентифікатор -->
+    <p id="unique">
+        А цей текст має унікальний стиль через <b>ідентифікатор (id)</b>.
+    </p>
+
+    <hr>
+
+    <h2>Корисні посилання:</h2>
+    <ul>
+        <li><a href="https://sinoptik.ua/" target="_blank">Прогноз погоди</a></li>
+        <li><a href="https://www.google.com/" target="_blank">Google</a></li>
+        <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+    </ul>
+
+</body>
+</html>
